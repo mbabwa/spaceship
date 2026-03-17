@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-03-17
+
+### Changed
+
+- **Astro 6 Upgrade**:
+  - Upgraded Astro from v5 to v6.
+  - Updated `@astrojs/mdx` v4 → v5, `@astrojs/svelte` v7 → v8.
+  - Updated `@shikijs/transformers` v3 → v4, `satori` v0.19 → v0.25.
+  - Fixed content collection schema compatibility with zod v4: `z.record(key, value)` now requires explicit key and value types.
+  - Migrated `z` import in `content.config.ts` from `astro:content` to `zod` directly (deprecated in Astro v6).
+  - Replaced deprecated `z.string().url()` with `z.url()` (zod v4 API).
+
+### Maintenance
+
+- Bumped svelte from 5.53.3 to 5.53.13.
+- Updated GitHub Actions workflow for inactive issues.
+- Bumped various dev dependencies: `@astrojs/check`, `@typescript-eslint/*`, `eslint`, `lefthook`, and others.
+
 ## [1.2.6] - 2026-02-08
 
 ### Changed
