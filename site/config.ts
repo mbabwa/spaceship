@@ -59,10 +59,10 @@ export const SITE: SiteConfig = {
   base: '/',
   website: 'https://spaceship-one.vercel.app',
   social: {
-    x: 'https://x.com/astronaut',
-    github: 'https://github.com/astronaut',
-    telegram: 'https://t.me/astronaut',
-    facebook: 'https://facebook.com/astronaut',
+    // x: '',
+    // github: '',
+    // telegram: '',
+    // facebook: '',
   },
   googleAnalyticsId: '', // Example: 'G-XXXXXXXXXX'
   homeHeroDescription:
@@ -82,7 +82,7 @@ export const SITE: SiteConfig = {
 
   // CTA (Call-to-Action) block for blog posts
   cta: {
-    enabled: true,
+    enabled: false,
     filePath: 'site/cta.md',
   },
 
